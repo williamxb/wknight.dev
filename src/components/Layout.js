@@ -1,6 +1,7 @@
 import React from 'react'
 import Seo from './SEO'
 import Header from './header'
+import Footer from './footer'
 
 const Layout = ({ children }) => {
     return (
@@ -10,10 +11,8 @@ const Layout = ({ children }) => {
             <Header />
 
             {children}
-            
-            <footer className="py-2 text-center text-gray-600 text-xs">
-                &copy; Will Knight 2021
-            </footer>
+
+            <Footer />
         </>
     )
 }
