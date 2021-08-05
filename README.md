@@ -10,4 +10,12 @@ Built with [Gatsby](https://www.gatsbyjs.com/), hosted with [Netlify](https://ww
   - [TailwindCSS](https://tailwindcss.com/)
   - [GraphQL](https://graphql.org/)
   - [Netlify](https://www.netlify.com/)
-  - [Netlify CMS](https://www.netlifycms.org/)
+  - CMS still undecided - will be either [Netlify CMS](https://www.netlifycms.org/) or [DatoCMS](https://www.datocms.com/)
+
+## Requirements
+  - Follow Gatsby's [Basic Hardware and Software Requirements](https://www.gatsbyjs.com/docs/basic-hardware-software-requirements/).
+  - Clone repository to your destination folder.
+  - Run `npm install` to install project dependencies.
+  - Start the local development server with `npm run develop`.
+
+See the [Gatsby Docs](https://www.gatsbyjs.com/docs/) for more info.
