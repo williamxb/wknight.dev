@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import cvFile from '../../public/CV.pdf'
+import cvFile from '../../public/CV - Will Knight.pdf'
 
 function downloadCV() {
     window.open(cvFile)
