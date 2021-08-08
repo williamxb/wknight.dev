@@ -7,7 +7,7 @@ const Header = () => {
             <div className="shadow bg-cool-gray-900 bg-circuit border-b-2 border-rose-400">
                 <div className="container flex items-center justify-between p-6 mx-auto font-mono font-bold text-gray-300 dark:text-gray-300">
                     <Link
-                        to="/"
+                        to="/home"
                         className="text-2xl bg-rose-400 px-4 py-3 text-white"
                     >
                         WK
@@ -16,7 +16,7 @@ const Header = () => {
                     <div className="flex">
                         <nav>
                             <Link
-                                to="/"
+                                to="/home"
                                 className="border-b-2 hover:border-teal-500 mx-1.5 sm:mx-6"
                                 activeClassName="text-teal-500 border-teal-500"
                             >

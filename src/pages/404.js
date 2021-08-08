@@ -15,7 +15,7 @@ const notFoundPage = () => {
                             Sorry - this page doesn't seem to exist.
                         </p>
                         <Link
-                            to="/"
+                            to="/home"
                             className="w-max mx-auto border border-rose-400 duration-200 ease-in-out font-medium hover:bg-rose-400 hover:text-gray-800 px-4 py-2 rounded-md shadow-sm text-base text-white transition-all whitespace-nowrap"
                         >
                             Go home

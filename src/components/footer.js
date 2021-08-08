@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container flex items-center justify-center mx-auto font-mono font-bold">
                 <nav>
                     <Link
-                        to="/"
+                        to="/home"
                         className="border-b-2 hover:border-teal-500 mx-1.5 sm:mx-4"
                         activeClassName="text-teal-500 border-teal-500"
                     >
