@@ -2,15 +2,14 @@ import React from 'react'
 import { Link } from 'gatsby'
 import modalImage from '../images/infrastructure-development.svg'
 import Seo from '../components/SEO.js'
-import Footer from '../components/footer'
 
 const Layout = () => {
     return (
         <>
             <Seo />
 
-            <div className="bg-circuit flex flex-col justify-center max-w-screen min-h-screen w-full">
-                <div className="bg-gray-200 mt-auto mx-auto mb-0 p-16 text-center text-gray-800">
+            <div className="bg-circuit flex flex-col items-center max-w-screen min-h-screen w-full">
+                <div className="mt-auto mb-0 mx-4 md:mx-8 lg:mx-auto p-16 text-center bg-gray-200 text-gray-800">
                     <h1 className="font-mono text-3xl text-teal-500 mb-4">
                         Work In Progress!
                     </h1>
@@ -22,10 +21,10 @@ const Layout = () => {
                 </div>
                 <Link
                     to="/home"
-                    className="text-warm-gray-400 text-center block mt-4 mb-auto w-max text-xs duration-200 ease-in-out hover:bg-opacity-20 hover:bg-teal-500 mt-10 mx-auto px-2 py-1 rounded-md transition-all"
+                    className="mb-auto mt-10 px-4 py-2 w-max rounded-md text-center text-xs text-warm-gray-400 hover:bg-opacity-20 hover:bg-teal-500 transition-bg duration-200 ease-in-out"
                 >
-                    Content and features will be missing<br></br>
-                    Continue anyway?
+                    Content and features will be missing.<br></br>
+                    <b>Continue anyway?</b>
                 </Link>
             </div>
 
