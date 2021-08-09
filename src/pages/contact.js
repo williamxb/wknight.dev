@@ -11,6 +11,7 @@ const contactPage = () => {
                     </h1>
 
                     <form
+                        name="Contact Form"
                         data-netlify="true"
                         data-netlify-recaptcha="true"
                         data-netlify-honeypot="bot-field"
